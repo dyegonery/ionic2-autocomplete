@@ -65,7 +65,7 @@ const defaultOpts = {
             <span [innerHTML]='attrs.label | boldprefix:attrs.keyword'></span>
         </ng-template>
         <ul *ngIf="!disabled && suggestions.length > 0 && showList">
-            <li *ngFor="let suggestion of suggestions" (tap)="handleSelectTap($event, suggestion)">
+            <li *ngFor="let suggestion of suggestions" (click)="handleSelectTap($event, suggestion)">
                 <ng-template
                         [ngTemplateOutlet]="template || defaultTemplate"
                         [ngTemplateOutletContext]="
@@ -159,8 +159,8 @@ export class AutoCompleteComponent implements ControlValueAccessor {
 
     public handleSelectTap($event, suggestion): boolean {
         this.select(suggestion);
-        $event.srcEvent.stopPropagation();
-        $event.srcEvent.preventDefault();
+        $event.stopPropagation();
+        $event.preventDefault();
         return false;
     }
 
