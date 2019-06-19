@@ -1,12 +1,11 @@
-# Ionic2-auto-complete
-
-## Disclaimer ##
-Due to a very little free time, I am not available for mainting and supporting this project, so contributions are very welcome!!!
-
+# Ionic3-auto-complete
 
 ## About ##
 This is a component based on Ionic's search-bar component, with the addition of auto-complete abillity.
 This component is super simple and light-weight. Just provide the data, and let the fun begin.
+
+This component includes a fix to the issue [107](https://github.com/kadoshms/ionic2-autocomplete/issues/107)
+The original component was made by [kadoshms](https://github.com/kadoshms). Check his [repo](https://github.com/kadoshms/ionic2-autocomplete) and give him a star!
 
 This is a **free software** please feel free to contribute! :)
 
@@ -14,7 +13,7 @@ This is a **free software** please feel free to contribute! :)
 
 ### Angular 5.0 Support
 
-Since Angular 5.0 was out, a several issues occured. 
+Since Angular 5.0 was out, a several issues occured.
 Thanks to @CoreyCole, most of them are gone now :)
 
 If you encounter another issues regrading Angular 5, pleae file an issue!

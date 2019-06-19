@@ -1,16 +1,12 @@
 {
   "name": "ionic3-auto-complete",
-  "version": "1.6.3-alpha",
-  "main": "dist/index.js",
-  "files": [
-      "dist/index.js"
-  ],
+  "version": "1.6.7-alpha",
   "scripts": {
     "publish": "npm publish dist",
     "build": "gulp build",
     "build:watch": "gulp",
     "docs": "npm run docs:build",
-    "docs:build": "compodoc -p tsconfig.json -n ionic2-auto-complete -d docs --hideGenerator",
+    "docs:build": "compodoc -p tsconfig.json -n ionic3-auto-complete -d docs --hideGenerator",
     "docs:serve": "npm run docs:build -- -s",
     "docs:watch": "npm run docs:build -- -s -w",
     "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",

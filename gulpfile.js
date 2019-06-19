@@ -116,7 +116,7 @@ gulp.task('rollup:umd', function () {
       // The name to use for the module for UMD/IIFE bundles
       // (required for bundles with exports)
       // See https://github.com/rollup/rollup/wiki/JavaScript-API#modulename
-      name: 'ionic2-auto-complete',
+      name: 'ionic3-auto-complete',
 
       // See https://github.com/rollup/rollup/wiki/JavaScript-API#globals
       globals: {
@@ -124,7 +124,7 @@ gulp.task('rollup:umd', function () {
       }
 
     }))
-    .pipe(rename('ionic2-auto-complete.umd.js'))
+    .pipe(rename('ionic3-auto-complete.umd.js'))
     .pipe(gulp.dest(distFolder));
 });
 

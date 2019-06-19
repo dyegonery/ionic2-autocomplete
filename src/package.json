@@ -1,23 +1,23 @@
 {
-  "name": "ionic2-auto-complete",
-  "version": "1.6.2-alpha",
+  "name": "ionic3-auto-complete",
+  "version": "1.6.7-alpha",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kadoshms/ionic2-autocomplete"
+    "url": "https://github.com/dyegonery/ionic3-autocomplete"
   },
   "author": {
-    "name": "mor",
-    "email": "kadoshms@gmail.com"
+    "name": "Dyego N",
+    "email": "dyegonr@gmail.com"
   },
   "keywords": [
     "angular"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kadoshms/ionic2-autocomplete/issues"
+    "url": "https://github.com/dyegonery/ionic3-autocomplete/issues"
   },
-  "module": "ionic2-auto-complete.js",
-  "typings": "ionic2-auto-complete.d.ts",
+  "module": "ionic3-auto-complete.js",
+  "typings": "ionic3-auto-complete.d.ts",
   "peerDependencies": {
     "@angular/core": "^4.0.0",
     "rxjs": "^5.1.0",
