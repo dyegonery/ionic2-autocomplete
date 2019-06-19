@@ -1,6 +1,6 @@
 {
-  "name": "ionic2-auto-complete",
-  "version": "1.6.2-alpha",
+  "name": "ionic3-auto-complete",
+  "version": "1.6.3-alpha",
   "main": "dist/index.js",
   "files": [
       "dist/index.js"
@@ -18,18 +18,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kadoshms/ionic2-autocomplete"
+    "url": "https://github.com/dyegonery/ionic3-autocomplete"
   },
   "author": {
-    "name": "mor",
-    "email": "kadoshms@gmail.com"
+    "name": "Dyego",
+    "email": "dyegonr@gmail.com"
   },
   "keywords": [
     "angular"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kadoshms/ionic2-autocomplete/issues"
+    "url": "https://github.com/dyegonery/ionic3-autocomplete"
   },
   "devDependencies": {
     "@angular/common": "4.1.0",
